@@ -16,7 +16,7 @@
 
 **两者之间的区别**
 
-![image-20230225212017246](Index Concurrency Control.assets/image-20230225212017246.png)
+![image-20230225212017246](Index-Concurrency-Control.assets/image-20230225212017246.png)
 
 **Latch Mode**
 
@@ -49,19 +49,19 @@
 
 将哈希表分段的切开，分段加锁，一个线程操作的时候就给这一段加锁。
 
-![image-20230225212729639](Index Concurrency Control.assets/image-20230225212729639.png)
+![image-20230225212729639](Index-Concurrency-Control.assets/image-20230225212729639.png)
 
 ### slot latches
 
 特点：按照槽加锁。
 
-![image-20230225212909521](Index Concurrency Control.assets/image-20230225212909521.png)
+![image-20230225212909521](Index-Concurrency-Control.assets/image-20230225212909521.png)
 
 
 
 【补充】原子操作 – 比较和交换
 
-![image-20230225213029846](Index Concurrency Control.assets/image-20230225213029846.png)
+![image-20230225213029846](Index-Concurrency-Control.assets/image-20230225213029846.png)
 
 让CPU判断要操作的数值是不是指定的数值，是的话进行操作。
 
@@ -77,13 +77,13 @@
 
 举例：
 
-![image-20230225213318155](Index Concurrency Control.assets/image-20230225213318155.png)
+![image-20230225213318155](Index-Concurrency-Control.assets/image-20230225213318155.png)
 
 例如，线程T1要删除44，T1会从根节点遍历，找到44将其删除。
 
 这时，来了个线程T2，要找41.如下图所示。
 
-![image-20230225213444894](Index Concurrency Control.assets/image-20230225213444894.png)
+![image-20230225213444894](Index-Concurrency-Control.assets/image-20230225213444894.png)
 
 但是，线程T1删除完数值44时，会将树进行重构，导致线程T2找不到41。
 
@@ -133,11 +133,11 @@ B+ 树中将保证线程安全的加锁方式统一叫做 latch crabbing/couplin
 
 
 
-![image-20230225215713404](Index Concurrency Control.assets/image-20230225215713404.png)
+![image-20230225215713404](Index-Concurrency-Control.assets/image-20230225215713404.png)
 
 例子2：读写操作
 
  T1 需要删除 4，T2 需要扫描数据，他们都各自枷锁。导致此时两个线程都无法获取到另一个 page 的锁，从而产生死锁。
 
-![image-20230225215912230](Index Concurrency Control.assets/image-20230225215912230.png)
+![image-20230225215912230](Index-Concurrency-Control.assets/image-20230225215912230.png)
 
