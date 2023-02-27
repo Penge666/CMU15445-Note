@@ -51,7 +51,7 @@
 
 ## Nested Loop Join
 
-> **Simple / Stupid **
+> **Simple / Stupid**
 
 ![image-20230227111331044](Join-Algorithms.assets/image-20230227111331044.png)
 
