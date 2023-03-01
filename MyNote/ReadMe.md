@@ -6,7 +6,7 @@
 - [Buffer-Pool.md](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Buffer-Pool.md)
 - [Hash-Table.md](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Hash-Table.md)
 - tree.待填坑中
-- [Index Concurrency Control.md](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Index Concurrency Control.md)
+- [Index Concurrency Control.md](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Index-Concurrency-Control.md)
 - [Sorting&Aggregation-Algorithms.md](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Sorting%26Aggregation-Algorithms.md)
 - [Join-Algorithms.md](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Join-Algorithms.md)
 
