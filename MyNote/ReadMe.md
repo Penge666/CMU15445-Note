@@ -13,4 +13,5 @@
 
 - [Query-Execution-1.md](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Query-Execution-1.md)
 - [Query-Execution-2.md](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Query-Execution-2.md)
+- Query-Planning&Optimization
 
