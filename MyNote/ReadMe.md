@@ -12,6 +12,12 @@
 
 
 - [Query-Execution-1.md](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Query-Execution-1.md)
+
 - [Query-Execution-2.md](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Query-Execution-2.md)
-- Query-Planning&Optimization
+
+- [Query-Planning&Optimization.md](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Query-Planning%26Optimization.md)
+
+- [Concurrency-Control-Theory.md](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Concurrency-Control-Theory.md)
+
+  
 
