@@ -19,5 +19,7 @@
 
 - [Concurrency-Control-Theory.md](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Concurrency-Control-Theory.md)
 
+- [Two-Phase-Locking.md](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Two-Phase-Locking.md)
+
   
 
