@@ -21,7 +21,11 @@
 
 - [Two-Phase-Locking.md](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Two-Phase-Locking.md)
 
+- [Timestamp-Ordering-Concurrency-Control.md](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Timestamp-Ordering-Concurrency-Control.md)
+
 - [Multi-Version-Concurrency-Control](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Multi-Version-Concurrency-Control.md)
+
+- [Logging-Schemes](https://github.com/Penge666/CMU15445-Note/blob/main/MyNote/Logging-Schemes.md)
 
   
 
